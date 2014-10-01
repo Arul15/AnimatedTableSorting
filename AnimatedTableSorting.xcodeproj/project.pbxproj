@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6E5F58173FA2F600A42F62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E5F57173FA2F600A42F62 /* UIKit.framework */; };
+		4C6E5F5A173FA2F600A42F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E5F59173FA2F600A42F62 /* Foundation.framework */; };
+		4C6E5F5C173FA2F600A42F62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E5F5B173FA2F600A42F62 /* CoreGraphics.framework */; };
+		4C6E5F62173FA2F600A42F62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E5F60173FA2F600A42F62 /* InfoPlist.strings */; };
+		4C6E5F64173FA2F600A42F62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E5F63173FA2F600A42F62 /* main.m */; };
+		4C6E5F68173FA2F600A42F62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E5F67173FA2F600A42F62 /* AppDelegate.m */; };
+		4C6E5F6A173FA2F600A42F62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E5F69173FA2F600A42F62 /* Default.png */; };
+		4C6E5F6C173FA2F600A42F62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E5F6B173FA2F600A42F62 /* Default@2x.png */; };
+		4C6E5F6E173FA2F600A42F62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E5F6D173FA2F600A42F62 /* Default-568h@2x.png */; };
+		4C6E5F71173FA2F600A42F62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E5F6F173FA2F600A42F62 /* MainStoryboard.storyboard */; };
+		4C6E5F7C173FA36C00A42F62 /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E5F7B173FA36C00A42F62 /* CityListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C6E5F54173FA2F600A42F62 /* AnimatedTableSorting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTableSorting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6E5F57173FA2F600A42F62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6E5F59173FA2F600A42F62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6E5F5B173FA2F600A42F62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C6E5F5F173FA2F600A42F62 /* AnimatedTableSorting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedTableSorting-Info.plist"; sourceTree = "<group>"; };
+		4C6E5F61173FA2F600A42F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6E5F63173FA2F600A42F62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6E5F65173FA2F600A42F62 /* AnimatedTableSorting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimatedTableSorting-Prefix.pch"; sourceTree = "<group>"; };
+		4C6E5F66173FA2F600A42F62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6E5F67173FA2F600A42F62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C6E5F69173FA2F600A42F62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4C6E5F6B173FA2F600A42F62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4C6E5F6D173FA2F600A42F62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C6E5F70173FA2F600A42F62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4C6E5F7A173FA36C00A42F62 /* CityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListViewController.h; sourceTree = "<group>"; };
+		4C6E5F7B173FA36C00A42F62 /* CityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6E5F51173FA2F600A42F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E5F58173FA2F600A42F62 /* UIKit.framework in Frameworks */,
+				4C6E5F5A173FA2F600A42F62 /* Foundation.framework in Frameworks */,
+				4C6E5F5C173FA2F600A42F62 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6E5F4B173FA2F600A42F62 = {
+			isa = PBXGroup;
+			children = (
+				4C6E5F5D173FA2F600A42F62 /* AnimatedTableSorting */,
+				4C6E5F56173FA2F600A42F62 /* Frameworks */,
+				4C6E5F55173FA2F600A42F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6E5F55173FA2F600A42F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E5F54173FA2F600A42F62 /* AnimatedTableSorting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6E5F56173FA2F600A42F62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E5F57173FA2F600A42F62 /* UIKit.framework */,
+				4C6E5F59173FA2F600A42F62 /* Foundation.framework */,
+				4C6E5F5B173FA2F600A42F62 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6E5F5D173FA2F600A42F62 /* AnimatedTableSorting */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E5F66173FA2F600A42F62 /* AppDelegate.h */,
+				4C6E5F67173FA2F600A42F62 /* AppDelegate.m */,
+				4C6E5F6F173FA2F600A42F62 /* MainStoryboard.storyboard */,
+				4C6E5F5E173FA2F600A42F62 /* Supporting Files */,
+				4C6E5F7A173FA36C00A42F62 /* CityListViewController.h */,
+				4C6E5F7B173FA36C00A42F62 /* CityListViewController.m */,
+			);
+			path = AnimatedTableSorting;
+			sourceTree = "<group>";
+		};
+		4C6E5F5E173FA2F600A42F62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E5F5F173FA2F600A42F62 /* AnimatedTableSorting-Info.plist */,
+				4C6E5F60173FA2F600A42F62 /* InfoPlist.strings */,
+				4C6E5F63173FA2F600A42F62 /* main.m */,
+				4C6E5F65173FA2F600A42F62 /* AnimatedTableSorting-Prefix.pch */,
+				4C6E5F69173FA2F600A42F62 /* Default.png */,
+				4C6E5F6B173FA2F600A42F62 /* Default@2x.png */,
+				4C6E5F6D173FA2F600A42F62 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6E5F53173FA2F600A42F62 /* AnimatedTableSorting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6E5F77173FA2F600A42F62 /* Build configuration list for PBXNativeTarget "AnimatedTableSorting" */;
+			buildPhases = (
+				4C6E5F50173FA2F600A42F62 /* Sources */,
+				4C6E5F51173FA2F600A42F62 /* Frameworks */,
+				4C6E5F52173FA2F600A42F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedTableSorting;
+			productName = AnimatedTableSorting;
+			productReference = 4C6E5F54173FA2F600A42F62 /* AnimatedTableSorting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6E5F4C173FA2F600A42F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Neuwert";
+			};
+			buildConfigurationList = 4C6E5F4F173FA2F600A42F62 /* Build configuration list for PBXProject "AnimatedTableSorting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C6E5F4B173FA2F600A42F62;
+			productRefGroup = 4C6E5F55173FA2F600A42F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6E5F53173FA2F600A42F62 /* AnimatedTableSorting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6E5F52173FA2F600A42F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E5F62173FA2F600A42F62 /* InfoPlist.strings in Resources */,
+				4C6E5F6A173FA2F600A42F62 /* Default.png in Resources */,
+				4C6E5F6C173FA2F600A42F62 /* Default@2x.png in Resources */,
+				4C6E5F6E173FA2F600A42F62 /* Default-568h@2x.png in Resources */,
+				4C6E5F71173FA2F600A42F62 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6E5F50173FA2F600A42F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E5F64173FA2F600A42F62 /* main.m in Sources */,
+				4C6E5F68173FA2F600A42F62 /* AppDelegate.m in Sources */,
+				4C6E5F7C173FA36C00A42F62 /* CityListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C6E5F60173FA2F600A42F62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6E5F61173FA2F600A42F62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C6E5F6F173FA2F600A42F62 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6E5F70173FA2F600A42F62 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6E5F75173FA2F600A42F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6E5F76173FA2F600A42F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6E5F78173FA2F600A42F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedTableSorting/AnimatedTableSorting-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedTableSorting/AnimatedTableSorting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6E5F79173FA2F600A42F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedTableSorting/AnimatedTableSorting-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedTableSorting/AnimatedTableSorting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6E5F4F173FA2F600A42F62 /* Build configuration list for PBXProject "AnimatedTableSorting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E5F75173FA2F600A42F62 /* Debug */,
+				4C6E5F76173FA2F600A42F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6E5F77173FA2F600A42F62 /* Build configuration list for PBXNativeTarget "AnimatedTableSorting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E5F78173FA2F600A42F62 /* Debug */,
+				4C6E5F79173FA2F600A42F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6E5F4C173FA2F600A42F62 /* Project object */;
+}
